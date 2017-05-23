@@ -1,0 +1,62 @@
+/* ================================
+    Portfolio Styles
+   ================================ */
+
+figure {
+  position: relative;
+  text-align: center;
+  margin: 0 auto 20px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+figcaption {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background-color: #4aaaa5;
+  transition: background-color 0.4s ease-out;
+}
+
+a {
+  font-size: 16px;
+}
+
+a:hover,
+a:focus {
+  color: #fff;
+  text-decoration: none;
+}
+
+figcaption:hover {
+  background-color: #24847f;
+}
+
+.portfolio-link {
+  display: block;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  color: #fff;
+  padding: 15px 0;
+}
+
+/* ================================
+    Media Queries
+   ================================ */
+
+@media (max-width: 767px) and (min-width: 520px), (min-width: 992px) {
+  .portfolio-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  figure {
+    width: 48.5%;
+    height: auto;
+    margin: 0 0 20px;
+  }
+}
