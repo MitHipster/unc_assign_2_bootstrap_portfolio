@@ -4,7 +4,7 @@ UNC Boot Camp Assignment 2 Bootstrap Portfolio
 
 ## Description
 
-Updated basic portfolio to incorporate the Bootstrap framework based on provided mockups and style guide.
+Updated basic portfolio to be fully responsive by incorporating the Bootstrap framework based on provided mockups and style guide.
 
 ## Deployed
 
